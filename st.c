@@ -1045,6 +1045,12 @@ tnew(int col, int row)
 	treset();
 }
 
+int tisaltscr(void)
+{
+	return IS_SET(MODE_ALTSCREEN);
+}
+
+
 void
 tswapscreen(void)
 {
